@@ -27,7 +27,9 @@ bun i @stacksjs/biome-config
 ```jsonc
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+
   // add your custom configuration here
+
   "extends": ["./node_modules/@stacksjs/biome-config/schema.json"]
 }
 ```
