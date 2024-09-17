@@ -1,0 +1,72 @@
+{
+  "name": "@stacksjs/biome-config",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A well-opinionated Biome config to get you started quickly.",
+  "author": "Chris Breuer <chris@stacksjs.org>",
+  "license": "MIT",
+  "homepage": "https://github.com/stacksjs/biome-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacksjs/biome-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stacksjs/biome-config/issues"
+  },
+  "keywords": [
+    "biome",
+    "linter",
+    "formatter",
+    "prettier",
+    "eslint",
+    "typescript",
+    "css",
+    "javascript",
+    "bun"
+  ],
+  "exports": {
+    ".": {
+      "bun": "./schema.json",
+      "import": "./schema.json"
+    },
+    "./schema.json": {
+      "bun": "./schema.json",
+      "import": "./schema.json"
+    }
+  },
+  "files": [
+    "schema.json"
+  ],
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --fix .",
+    "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
+    "commit": "git cz",
+    "changelog": "bunx changelogen --output CHANGELOG.md",
+    "release": "bun run changelog && bunx bumpp package.json --all"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@commitlint/cli": "^19.5.0",
+    "@types/bun": "^1.1.9",
+    "bumpp": "^9.5.2",
+    "changelogen": "^0.5.5",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.9.4",
+    "lint-staged": "^15.2.10",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.6.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "bun lint-staged",
+    "commit-msg": "bunx --no -- commitlint --edit $1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": "bunx biome --fix"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
+}
