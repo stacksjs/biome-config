@@ -24,7 +24,7 @@ This is an opinionated, well-defined Biome configuration to help you get started
 bun i @stacksjs/biome-config
 ```
 
-```json
+```jsonc
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   // add your custom configuration here
