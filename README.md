@@ -70,8 +70,8 @@ The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 Made with 💙
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/biome-config?style=flat-square
-[npm-version-href]: https://npmjs.com/package/biome-config
+[npm-version-src]: https://img.shields.io/npm/v/@stacksjs/biome-config?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@stacksjs/biome-config
 
 <!-- [codecov-src]: https://img.shields.io/codecov/c/gh/stacksjs/biome-config/main?style=flat-square
 [codecov-href]: https://codecov.io/gh/stacksjs/biome-config -->
