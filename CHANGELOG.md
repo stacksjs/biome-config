@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.1.2...main
+
+[compare changes](https://github.com/stacksjs/biome-config/compare/v0.1.2...main)
+
+### 🩹 Fixes
+
+- Keep $schema out of schema.json ([762dacc](https://github.com/stacksjs/biome-config/commit/762dacc))
+
+### 🏡 Chore
+
+- Improve readme ([390ee04](https://github.com/stacksjs/biome-config/commit/390ee04))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.1.1...main
 
 [compare changes](https://github.com/stacksjs/biome-config/compare/v0.1.1...main)
