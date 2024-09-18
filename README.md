@@ -24,6 +24,8 @@ This is an opinionated, well-defined Biome configuration to help you get started
 bun i @stacksjs/biome-config
 ```
 
+After you installed the config, you need to extend it in your `biome.json` file.
+
 ```jsonc
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
@@ -33,6 +35,8 @@ bun i @stacksjs/biome-config
   "extends": ["./node_modules/@stacksjs/biome-config/schema.json"]
 }
 ```
+
+_You want to tweak some of the rules? You can easily override them._
 
 ## Changelog
 
