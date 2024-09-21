@@ -44,11 +44,11 @@
     "release": "bun run changelog && bunx bumpp package.json --all"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.0",
+    "@biomejs/biome": "^1.9.2",
     "@commitlint/cli": "^19.5.0",
-    "@types/bun": "^1.1.9",
+    "@types/bun": "^1.1.10",
     "bumpp": "^9.5.2",
-    "changelogen": "^0.5.5",
+    "changelogen": "^0.5.7",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.4",
     "lint-staged": "^15.2.10",
