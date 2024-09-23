@@ -22,17 +22,12 @@
     "typescript",
     "css",
     "javascript",
-    "bun"
+    "bun",
+    "stacksjs"
   ],
   "exports": {
-    ".": {
-      "bun": "./schema.json",
-      "import": "./schema.json"
-    },
-    "./schema.json": {
-      "bun": "./schema.json",
-      "import": "./schema.json"
-    }
+    ".": "./schema.json",
+    "./schema.json": "./schema.json"
   },
   "files": ["schema.json"],
   "scripts": {
