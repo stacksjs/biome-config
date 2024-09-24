@@ -32,7 +32,7 @@ After you installed the config, you need to extend it in your `biome.json` file.
 
   // add your custom configuration here
 
-  "extends": ["./node_modules/@stacksjs/biome-config/schema.json"]
+  "extends": ["@stacksjs/biome-config"]
 }
 ```
 
