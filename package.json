@@ -1,7 +1,7 @@
 {
   "name": "@stacksjs/biome-config",
   "type": "module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A well-opinionated Biome config to get you started quickly, and efficiently.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

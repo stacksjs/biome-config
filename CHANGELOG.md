@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.4...main
+
+[compare changes](https://github.com/stacksjs/biome-config/compare/v0.1.4...main)
+
+### 🏡 Chore
+
+- Ignore `dictionary.txt` ([0a9b145](https://github.com/stacksjs/biome-config/commit/0a9b145))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.1.3...main
 
 [compare changes](https://github.com/stacksjs/biome-config/compare/v0.1.3...main)
