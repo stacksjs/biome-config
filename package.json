@@ -42,18 +42,18 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@commitlint/cli": "^19.6.0",
+    "@commitlint/cli": "^19.8.1",
     "@stacksjs/bumpx": "^0.1.13",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.8",
-    "@types/bun": "^1.1.14",
+    "@types/bun": "^1.2.20",
     "buddy-bot": "^0.8.8",
     "bumpp": "^9.9.0",
     "bun-git-hooks": "^0.2.19",
     "changelogen": "^0.5.7",
     "commitizen": "^4.3.1",
-    "cz-git": "^1.11.0",
-    "typescript": "^5.7.2"
+    "cz-git": "^1.12.0",
+    "typescript": "^5.9.2"
   },
   "git-hooks": {
     "pre-commit": {
