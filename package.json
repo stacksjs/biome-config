@@ -43,9 +43,9 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@commitlint/cli": "^19.8.1",
-    "@stacksjs/bumpx": "^0.1.33",
+    "@stacksjs/bumpx": "^0.1.38",
     "@stacksjs/gitlint": "^0.1.5",
-    "@stacksjs/logsmith": "^0.1.14",
+    "@stacksjs/logsmith": "^0.1.15",
     "@types/bun": "^1.2.21",
     "buddy-bot": "^0.8.10",
     "bumpp": "^9.9.0",
