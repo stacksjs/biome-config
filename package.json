@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@commitlint/cli": "^20.0.0",
+    "@commitlint/cli": "^20.1.0",
     "@stacksjs/bumpx": "^0.1.17",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.8",
