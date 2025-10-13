@@ -41,7 +41,7 @@
     "postinstall": "bunx git-hooks"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
+    "@biomejs/biome": "^2.2.6",
     "@commitlint/cli": "^19.6.0",
     "@stacksjs/bumpx": "^0.1.17",
     "@stacksjs/gitlint": "^0.1.5",
