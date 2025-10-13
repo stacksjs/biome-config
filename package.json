@@ -41,16 +41,16 @@
     "postinstall": "bunx git-hooks"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@commitlint/cli": "^19.6.0",
-    "@stacksjs/bumpx": "^0.1.17",
+    "@biomejs/biome": "^2.2.6",
+    "@commitlint/cli": "^20.1.0",
+    "@stacksjs/bumpx": "^0.2.1",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.18",
     "@types/bun": "^1.3.0",
-    "buddy-bot": "^0.8.9",
-    "bumpp": "^9.9.0",
-    "bun-git-hooks": "^0.2.19",
-    "changelogen": "^0.5.7",
+    "buddy-bot": "^0.9.8",
+    "bumpp": "^10.3.1",
+    "bun-git-hooks": "^0.3.1",
+    "changelogen": "^0.6.2",
     "commitizen": "^4.3.1",
     "cz-git": "^1.12.0",
     "typescript": "^5.9.3"
