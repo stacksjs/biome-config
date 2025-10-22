@@ -41,11 +41,11 @@
     "postinstall": "bunx git-hooks"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@commitlint/cli": "^19.6.0",
-    "@stacksjs/bumpx": "^0.1.17",
+    "@biomejs/biome": "^2.2.7",
+    "@commitlint/cli": "^20.1.0",
+    "@stacksjs/bumpx": "^0.2.2",
     "@stacksjs/gitlint": "^0.1.5",
-    "@stacksjs/logsmith": "^0.1.8",
+    "@stacksjs/logsmith": "^0.2.0",
     "@types/bun": "^1.1.14",
     "buddy-bot": "^0.9.9",
     "bumpp": "^9.9.0",
