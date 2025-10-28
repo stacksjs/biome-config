@@ -7,7 +7,7 @@
 
 # biome-config
 
-This is an opinionated, well-defined Biome configuration to help you get started with your project. It currently is the configuration used by [Stacks.js](https://stacksjs.org).
+This is an opinionated, well-defined Biome configuration to help you get started with your project. ~~It currently is the configuration used by [Stacks.js](https://stacksjs.org).~~ We are using [Pickier](https://github.com/stacksjs/pickier) at the moment.
 
 ## Features
 
